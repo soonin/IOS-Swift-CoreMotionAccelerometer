@@ -43,7 +43,7 @@ class DiscoverViewController: UIViewController, CLLocationManagerDelegate , MKMa
         super.viewDidLoad()
         
         map.delegate = self
-        
+        map.mapType = .hybridFlyover
         if (CLLocationManager.locationServicesEnabled())
         {
             locationManager = CLLocationManager()
