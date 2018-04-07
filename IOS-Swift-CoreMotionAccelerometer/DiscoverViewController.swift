@@ -94,17 +94,3 @@ class DiscoverViewController: UIViewController, CLLocationManagerDelegate , MKMa
 }
 
 
-//extension DiscoverViewController : MKMapViewDelegate {
-//
-//    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-//
-//        let annotationView = MKAnnotationView(annotation: mitAnnotation, reuseIdentifier: "BCPlacePin")
-//        annotationView.image = UIImage(named: "ann01")
-//        let transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
-//        annotationView.transform = transform
-//
-//        return annotationView
-//
-//    }
-//}
-
