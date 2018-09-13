@@ -50,9 +50,9 @@ class ViewController: UIViewController , CLLocationManagerDelegate {
             locationManager.startUpdatingLocation()
         }
         
-//        myDeviceMotion()
-//        myGyroscope()
-//        myAccelerometer()
+        myDeviceMotion()
+        myGyroscope()
+        myAccelerometer()
         
     }
 
